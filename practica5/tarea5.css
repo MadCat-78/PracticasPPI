@@ -1,10 +1,10 @@
 html {
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     font-weight: normal;
-
+    text-decoration: cyan wavy underline overline;
 }
 
 h2 {
@@ -38,7 +38,7 @@ li {
 
 a {
     color: black;
-    
+
 }
 
 #firstsection {
