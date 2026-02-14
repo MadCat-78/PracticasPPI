@@ -7,7 +7,9 @@
 </head>
 
 <body>
+
     <h1>Formulario</h1>
+    
     <form action="" method="get">
         <fieldset>
             <legend>Datos personales</legend>
@@ -22,7 +24,7 @@
             <div>
                 <label for="lname">Primer apellido</label>
                 <input name="lastName" type="text" placeholder="Ventura"
-                id="lame">
+                id="lname">
             </div>
             <br />
             <div>
@@ -44,12 +46,61 @@
             </div>
             <br />
             <button>Enviar</button>
-
         </fieldset>
+
         <fieldset>
             <legend>Preferencias</legend>
+            <button>Enviar</button>
+            <br /><br />
+            <div>
+                <label for="videogameGenre">Generos de videojuegos</label>
+                <select name="videogamePreferences"id="videogameGenre">
+                <option value="">Por favor elegir opción</option>
+                <option value="F">Fps</option>
+                <option value="T">Terror</option>
+                <option value="P">Puzzles</option>
+                </select>
+                
+            </div>
+            <br />
+            <div>
+                <label for="termPreferences">Aceptar términos y condiciones?</label>
+                <input type="checkbox" name="terms" value="Yes"
+                id="termPreferences">
+            </div>
+            <br />
+            <div>
+                <p>Por favor elegir opción</p>
+                <label for="TradioPreferences">Terror</label>
+                <input type="radio" id="TradioPreferences" name="radioPrefs" value="T"/>
+                <label for="CradioPreferences">Comedia</label>
+                <input type="radio" id="CradioPreferences" name="radioPrefs" value="C"/>
+                <label for="AradioPreferences">Acción</label>
+                <input type="radio" id="AradioPreferences" name="radioPrefs" value="A"/>
+            </div>
+            <br />
+            <div>
+                <label for="colorPrefs">color favorito</label>
+                <input type="color" id="colorPrefs" name="color" value="#3880f5">
+                
+            </div>
+            <br /><br />
+            <div>
+                <button type="button" >Para JavaScript</button>
+                <br /><br />
+                <button type="submit">Enviar respuesta</button>
+            </div>
         </fieldset>
-
     </form>
+
+    <form action="https://www.youtube.com/results" method="get">
+        <fieldset>
+            <legend>Búsqueda</legend>
+            <input type="text" name="search_query"/>
+
+            <button>Buscar en Youtube</button>
+        </fieldset>
+    </form>
+
 </body>
 </html>
