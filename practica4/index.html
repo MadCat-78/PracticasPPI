@@ -5,23 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Formulario</h1>
     <form action="" method="get">
         <fieldset>
             <legend>Datos personales</legend>
             <div>
+                <!-- El for y el id tienen que tener el mismo
+                 nombre(están conectados) -->
                 <label for="fname">Primer nombre</label>
-                <input type="text" placeholder="Héctor"
+                <input name="firstName" type="text" placeholder="Héctor"
                 id="fname">
             </div>
             <br />
             <div>
                 <label for="lname">Primer apellido</label>
-                <input type="text" placeholder="Ventura"
+                <input name="lastName" type="text" placeholder="Ventura"
                 id="lame">
             </div>
+            <button>Enviar</button>
 
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias</legend>
         </fieldset>
 
     </form>
