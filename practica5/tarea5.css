@@ -1,40 +1,53 @@
 html {
-    color:rgb(116, 0, 161)
 
 }
+
 h1 {
+    font-weight: normal;
 
 }
 
 h2 {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    text-align: center;
     
 }
 
 h3,h4,h5,h6 {
+    background-color: slategray;
+    color: black;
     
 }
 
 ul {
-
+    background-color: gray;
+    font-weight: 200;
 }
 
 ol {
-
+    background-color: cyan;
+    font-weight: 400;
 }
 
 li {
-
+    color: blue;
+    background-color: hsla(135, 100%, 50%, 0.5) ;
+    font-weight: bolder;
 }
 
 a {
-
+    color: black;
+    
 }
 
 #firstsection {
-
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #spanp {
-
+    background-color: black;
+    color: pink;
+    font-weight: bold;
 }
 
