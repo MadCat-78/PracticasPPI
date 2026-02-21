@@ -1,27 +1,27 @@
 /* Universal reset */
 /* (0.5) Completa: selector universal */
-REEMPLAZA {
+* {
   margin: 0;
   padding: 0;
 }
 
 /* Selector de etiqueta */
 /* (0.5) Completa: selector de body */
-REEMPLAZA {
+body {
   line-height: 1.6;
   background: #f9f9f9;
   color: #222;
 }
 
 /* (0.5) Completa: selector para header 2 */
-REEMPLAZA {
+h2 {
   color: teal;
   margin: 0.75rem;
 }
 
 /* Selector de clase */
 /* (0.25) Completa: para class card */
-REEMPLAZA {
+.card {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 0.5rem;
@@ -30,19 +30,19 @@ REEMPLAZA {
 }
 
 /* (0.25) Completa: para class container */
-REEMPLAZA {
+.container {
   width: 50%;
 }
 
 /* (0.25) Completa: para class site-header */
-REEMPLAZA {
+.site-header {
   padding: 1rem;
   background: #111;
   color: #fff;
 }
 
 /* (0.25) Completa: para class site-footer */
-REEMPLAZA {
+.site-footer {
   padding: 1rem;
   background: #111;
   color: #fff;
