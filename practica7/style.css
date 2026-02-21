@@ -3,39 +3,71 @@ p {
 }
 
 #enero {
+    width: 70%;
+    height: 300px;
+    padding: 1rem;
     border-style: solid;
     border-color: rgb(191, 53, 255);
     border-width: 2rem;
+    border-radius: 15%;
+    overflow: scroll;
+    box-sizing: content-box;
+    margin: 30pt;
 }
 
 #febrero {
+    width: 70%;
+    height: 200px;
+    padding: 1em;
     border-style: dotted;
     border-color: rgb(233, 148, 210);
     border-width: 0.3rem;
+    border-radius: 3rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 50pt;
 }
 
 #marzo {
+    padding: .25cm;
     border-style: double;
     border-color: rgb(245, 19, 19);
     border-width: 0.5rem;
+    border-radius: 1rem;
+    margin: 30pt;
+    display: inline-block;
 }
 
 #abril {
+    width: 40%;
+    height: 30%;
+    padding: 20px;
     border-style: ridge;
     border-color: rgb(80, 0, 0);
     border-width: 1rem;
+    border-top-left-radius: 10%;
+    display: inline-block;
+    position: fixed;
+    top: 20pt;
+    left: 50pt;
+    background-color: azure;
+
 }
 
 #mayo {
+    padding: .75rem;
     border-style: solid;
     border-color: rgb(0, 46, 84);
     border-left-color: rgb(136, 142, 197);
     border-top-color: rgb(50, 98, 160);
     border-width: 2rem;
+    border-radius: 5%;
 }
 
 #junio {
+    padding: 2rem;
     border-style: dashed;
     border-color: rgb(156, 33, 33);
     border-width: 0.3rem;
+    border-radius: 15%;
 }
