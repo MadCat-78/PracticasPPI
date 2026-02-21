@@ -109,17 +109,17 @@ button:nth-of-type(3) {
 
 /* Pseudoclase :checked */
 /* (0.5) Completa: que el input de tipo radio button sea verde (es el círculo del radio button) */
-REEMPLAZA {
+input[type="radio"]:checked {
   accent-color: limegreen;
 }
 /* (0.5) Completa: que el span del radio button también sea verde (revisen hermanos) */
-REEMPLAZA {
+input[type="radio"]:checked + span {
   color: limegreen;
 }
 
 /* Pseudo-elementos ::before y ::after */
 /* (1) Completa: para que aparezca el texto al inicio de los párrafos al pasar el cursor */
-REEMPLAZA {
+p:hover::before {
   content: "Inicio-->";
   background: black;
   color: white;
@@ -129,7 +129,7 @@ REEMPLAZA {
 }
 
 /* (1) Completa: para que aparezca el texto al final de los párrafos al pasar el cursor */
-REEMPLAZA {
+p:hover::after {
   content: "<--Final";
   background: black;
   color: white;
