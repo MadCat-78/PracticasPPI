@@ -1,0 +1,116 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  font-size: 1.5rem;
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  /*1.- Agregar flex y hacer el espaciado igual entre los componentes con el primer objeto al inicio, último al final */
+}
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+ul,
+li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul {display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  max-width: 90%;
+  /*2.-Flex espaciado distribuido (centrado) con capacidad de crecimiento, ancho max de 90% */
+}
+
+/*3.-Ancho entre 150 y 699 pixeles */
+@media(min-width: 150px) and (max-width: 699px)
+ {
+  h1 {
+    color: blue;
+  }
+}
+
+/*4.-Altura máxima de 800 pixeles */
+@media(max-height:800px)
+ {
+  a {
+    color: black;
+    font-size: 1rem;
+  }
+  h1 {
+    color: cyan;
+  }
+  a:hover {
+    font-size: 3rem;
+    color: cyan;
+  }
+}
+
+/*5.-Ancho mínimo de 700 pixeles */
+@media(min-width: 700px)
+ {
+  h1 {
+    color: orange;
+  }
+}
+
+/*6.-Ancho mínimo de 1000 pixeles*/
+@media(min-width: 1000px)
+ {
+  h1 {
+    color: yellow;
+  }
+}
+
+/*7.-Cuando tenga orientación horizontal*/
+@media(orientation: landscape)
+ {
+  body {
+    background-color: grey;
+  }
+}
+
+@media(min-width: 1500px)/*8.-Ancho mínimo de 1500 pixeles y agregar al "body" un fondo de una imagen web que cubra la pantalla*/
+ {
+  h1 {
+    color: green;
+  }
+  body {
+    background-image: url("https://preview.redd.it/no-s%C3%A9-c%C3%B3mo-este-su-d%C3%ADa-pero-miren-una-puta-calavera-v0-a060rlv6jwke1.jpeg?auto=webp&s=f74de64e0d36f41d2299ecf69730a32bb19c1364");
+    background-size: cover;
+  }
+  /*8.-Agregar un fondo que cubra y se repita de una imagen web */
+}
+
+/*9-.Ancho máximo de 750 pixeles*/
+@media(max-width: 750px)
+ {
+  h1 {
+    font-size: 4rem;
+  }
+  nav, nav ul{
+    flex-direction: column;
+    align-items: center;
+  }
+  /*9-.Cambiar los flex del nav y la ul del nav en columna alineada al centro */
+}
+
+@media(max-width: 550px)/*10.-Ancho máximo de 550 pixeles*/
+ {
+  body {
+    font-size: 3em;
+    font-family: "Roboto", sans-serif;
+    /*10.-Agregar la fuente roboto y usarla como primera opción */
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+}
