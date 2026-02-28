@@ -20,9 +20,12 @@ section {
 }
 
 #button1 {
+  transition-duration: 3s;
 }
 
 #button1:hover {
+  transform: rotate(6.24rad);
+  transform-origin: right bottom;
 }
 
 #button2 {
