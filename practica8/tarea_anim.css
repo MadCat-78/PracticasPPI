@@ -26,12 +26,16 @@ section {
 #button1:hover {
   transform: rotate(6.24rad);
   transform-origin: right bottom;
+  background-color: rgb(154, 0, 0);
 }
 
 #button2 {
+  transition-duration: 1s;
 }
 
 #button2:hover {
+  opacity: 50%;
+  transform: skewX(-40deg);
 }
 
 #button3 {
