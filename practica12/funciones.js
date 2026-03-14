@@ -18,9 +18,11 @@ function getRandomIntInclusive(min, max) {
 let adivinaNum = function () {
   let numeroPorAdivinar=getRandomIntInclusive(1,100);
   let intento=parseInt(prompt("Adivina el numero que tengo entre 1 y 100"));
+  console.log(numeroPorAdivinar);
 for(let i=1; i<numIntentos; i++){
     if(intento==numeroPorAdivinar){
         console.log("Felcidades, adinivaste :D");
+        break;
     }else{
         intento=parseInt(prompt("No es. Intenta otra vez"));
     }
