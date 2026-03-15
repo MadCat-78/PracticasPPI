@@ -76,8 +76,8 @@ let com1= new Comment("Mario","el gato lo atacó");
 let com2=new Comment("Horacio","Corre Forest, corre");
 let com3=new Comment("Ana","Primer comentario");
 
-let video1=new Video(150,"El bob esponja de los ojos hiperrealistas");
-let video2=new Video(230,"El bob esponja de los ojos hiperrealistas");
+let video1=new Video(847,"El bob esponja de los ojos hiperrealistas");
+let video2=new Video(324,"El bob esponja de los ojos hiperrealistas");
 
 // Al final descomenten la sección para que la prueben, no deberían tener errores usando las siguientes líneas de código
 
